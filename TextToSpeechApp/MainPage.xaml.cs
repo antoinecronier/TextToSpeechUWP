@@ -70,6 +70,25 @@ namespace TextToSpeechApp
             TextToSpeechClassLibrary.TextToSpeech.Instance.Stop();
         }
 
+        private void button5_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            SpeechToTextClassLibrary.SpeechToText.Instance.Start -= Instance_Start;
+            SpeechToTextClassLibrary.SpeechToText.Instance.HaveResult -= Instance_HaveResult;
+            SpeechToTextClassLibrary.SpeechToText.Instance.Stop -= Instance_Stop;
+
+            SpeechToTextClassLibrary.SpeechToText.Instance.Start += Instance_Start;
+            SpeechToTextClassLibrary.SpeechToText.Instance.HaveResult += Instance_HaveResult;
+            SpeechToTextClassLibrary.SpeechToText.Instance.Stop += Instance_Stop;
+
+            //SpeechToTextClassLibrary.SpeechToText.Instance.StartOverlayRecognization();
+            SpeechToTextClassLibrary.SpeechToText.Instance.StartRecognization();
+        }
+
+        private void button6_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            SpeechToTextClassLibrary.SpeechToText.Instance.StopRecognization();
+        }
+
         private async void Instance_StopEvent(object sender, EventArgs e)
         {
             await CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(
@@ -97,6 +116,25 @@ namespace TextToSpeechApp
         {
             MessageDialog dialog = new MessageDialog("Pause Event");
             await dialog.ShowAsync();
+        }
+
+        private void Instance_Start(object sender, EventArgs e)
+        {
+        }
+
+        private async void Instance_HaveResult(object sender, SpeechToTextClassLibrary.SpeechToText.SpeechToTextEventArgs e)
+        {
+            await CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(
+                    Windows.UI.Core.CoreDispatcherPriority.Normal,
+                    () =>
+                    {
+                        this.richEditBox1.Document.SetText(Windows.UI.Text.TextSetOptions.None, e.SpeechResultAll.ToString());
+                    });
+        }
+
+        private void Instance_Stop(object sender, SpeechToTextClassLibrary.SpeechToText.SpeechToTextEventArgs e)
+        {
+            
         }
     }
 }

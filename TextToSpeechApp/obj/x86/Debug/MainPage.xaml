@@ -9,6 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
@@ -23,6 +24,8 @@
         <Button x:ConnectionId='3' Name="button2" Content="Pause" Grid.Row="1" Grid.Column="1"                        />
         <Button x:ConnectionId='4' Name="button3" Content="Resume" Grid.Row="1" Grid.Column="2"                        />
         <Button x:ConnectionId='5' Name="button4" Content="Stop" Grid.Row="1" Grid.Column="3"                        />
+        <Button x:ConnectionId='6' Name="button5" Content="Start Listen" Grid.Row="2" Grid.Column="0"                        />
+        <Button x:ConnectionId='7' Name="button6" Content="Stop Listen" Grid.Row="2" Grid.Column="1"                        />
     </Grid>
 </Page>
 

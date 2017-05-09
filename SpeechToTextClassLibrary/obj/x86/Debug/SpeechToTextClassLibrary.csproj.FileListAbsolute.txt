@@ -1,0 +1,17 @@
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\bin\x86\Debug\SpeechToTextClassLibrary.dll
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\bin\x86\Debug\SpeechToTextClassLibrary.pdb
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\bin\x86\Debug\SpeechToTextClassLibrary.pri
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\SpeechToTextClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\SpeechToTextClassLibrary.dll
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\SpeechToTextClassLibrary.pdb
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\priconfig.xml
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\layout.resfiles
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\resources.resfiles
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\pri.resfiles
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\qualifiers.txt
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt

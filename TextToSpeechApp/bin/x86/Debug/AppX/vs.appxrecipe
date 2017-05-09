@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>500689C4B916DFBBBAE9E09BC1A106CD821BBF0DA2FCCD392489193A1F0CDC26</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>3FED29ECFF47C0D16AC60580A8155F17D06B68B0BBE484AC701F2BF132D81E08</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d9a4aef1-57f8-44ac-bbb1-9aa0a96887de_1.0.0.0_x86__ay37skzgry1vc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d9a4aef1-57f8-44ac-bbb1-9aa0a96887de_ay37skzgry1vc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>d9a4aef1-57f8-44ac-bbb1-9aa0a96887de</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-27T09:45:09.766</Modified>
+      <Modified>2017-05-09T13:16:03.505</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\bin\x86\Debug\TextToSpeechApp.exe">
       <PackagePath>entrypoint\TextToSpeechApp.exe</PackagePath>
-      <Modified>2017-04-27T09:45:08.737</Modified>
+      <Modified>2017-05-09T13:16:02.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tactfactory\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,9 +495,13 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\bin\x86\Debug\SpeechToTextClassLibrary.dll">
+      <PackagePath>SpeechToTextClassLibrary.dll</PackagePath>
+      <Modified>2017-05-09T13:15:59.634</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechClassLibrary\bin\x86\Debug\TextToSpeechClassLibrary.dll">
       <PackagePath>TextToSpeechClassLibrary.dll</PackagePath>
-      <Modified>2017-04-27T09:45:03.999</Modified>
+      <Modified>2017-04-27T12:22:46.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -539,7 +543,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\bin\x86\Debug\TextToSpeechApp.xr.xml">
       <PackagePath>TextToSpeechApp.xr.xml</PackagePath>
-      <Modified>2017-04-26T14:37:34.936</Modified>
+      <Modified>2017-05-09T07:51:21.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -548,11 +552,11 @@
     <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-04-26T14:37:36.382</Modified>
+      <Modified>2017-05-09T08:02:00.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\bin\x86\Debug\Core\TextToSpeechApp.exe">
       <PackagePath>TextToSpeechApp.exe</PackagePath>
-      <Modified>2017-04-27T09:45:09.715</Modified>
+      <Modified>2017-05-09T13:16:03.450</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,2 +1,3 @@
+C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\SpeechToTextClassLibrary\SpeechToTextClassLibrary.csproj;x86
 C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\TextToSpeechApp.csproj;x86
 C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechClassLibrary\TextToSpeechClassLibrary.csproj;x86
