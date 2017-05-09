@@ -66,16 +66,19 @@ namespace TextToSpeechClassLibrary
 
         public void Pause()
         {
+            playerManager.Pause();
             OnPauseEvent(new MediaPlayerEventArgs(playerManager));
         }
 
         public void Resume()
         {
+            playerManager.Resume();
             OnResumeEvent(new MediaPlayerEventArgs(playerManager));
         }
 
         public void Stop()
         {
+            playerManager.Stop();
             OnStopEvent(new MediaPlayerEventArgs(playerManager));
         }
 
@@ -228,6 +231,21 @@ namespace TextToSpeechClassLibrary
                     spliters[0] = " ";
                 }
                 slicedText = text.Split(spliters, StringSplitOptions.RemoveEmptyEntries);
+            }
+
+            internal void Pause()
+            {
+                mediaPlayer.Pause();
+            }
+
+            internal void Resume()
+            {
+                mediaPlayer.Play();
+            }
+
+            internal void Stop()
+            {
+                mediaPlayer.Dispose();
             }
             #endregion
 
