@@ -22136,11 +22136,11 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "C:\\Users\\tactfactory\\Documents\\Visual Studio 2015\\Projects\\texttospeech\\C#\\TextToSpeechClassLibrary\\TextToSpeechClassLibrary.csproj": {
-              "projectPath": "C:\\Users\\tactfactory\\Documents\\Visual Studio 2015\\Projects\\texttospeech\\C#\\TextToSpeechClassLibrary\\TextToSpeechClassLibrary.csproj"
-            },
             "C:\\Users\\tactfactory\\Documents\\Visual Studio 2015\\Projects\\texttospeech\\C#\\SpeechToTextClassLibrary\\SpeechToTextClassLibrary.csproj": {
               "projectPath": "C:\\Users\\tactfactory\\Documents\\Visual Studio 2015\\Projects\\texttospeech\\C#\\SpeechToTextClassLibrary\\SpeechToTextClassLibrary.csproj"
+            },
+            "C:\\Users\\tactfactory\\Documents\\Visual Studio 2015\\Projects\\texttospeech\\C#\\TextToSpeechClassLibrary\\TextToSpeechClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\tactfactory\\Documents\\Visual Studio 2015\\Projects\\texttospeech\\C#\\TextToSpeechClassLibrary\\TextToSpeechClassLibrary.csproj"
             }
           }
         }

@@ -106,8 +106,6 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CommandWorker.cs" />
-    <Compile Include="ManualResetAction.cs" />
     <Compile Include="TextToSpeech.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\TextToSpeechClassLibrary.rd.xml" />

@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-09T13:24:33.898</Modified>
+      <Modified>2017-05-15T09:26:19.004</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\bin\x86\Debug\TextToSpeechApp.exe">
       <PackagePath>entrypoint\TextToSpeechApp.exe</PackagePath>
-      <Modified>2017-05-09T13:24:33.031</Modified>
+      <Modified>2017-05-15T09:26:12.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tactfactory\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -501,7 +501,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechClassLibrary\bin\x86\Debug\TextToSpeechClassLibrary.dll">
       <PackagePath>TextToSpeechClassLibrary.dll</PackagePath>
-      <Modified>2017-05-09T13:24:29.044</Modified>
+      <Modified>2017-05-15T09:26:03.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -552,11 +552,11 @@
     <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-09T08:02:00.509</Modified>
+      <Modified>2017-05-15T09:26:17.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\tactfactory\Documents\Visual Studio 2015\Projects\texttospeech\C#\TextToSpeechApp\bin\x86\Debug\Core\TextToSpeechApp.exe">
       <PackagePath>TextToSpeechApp.exe</PackagePath>
-      <Modified>2017-05-09T13:24:33.847</Modified>
+      <Modified>2017-05-15T09:26:18.909</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

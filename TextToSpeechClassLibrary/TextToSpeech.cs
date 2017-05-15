@@ -22,8 +22,6 @@ namespace TextToSpeechClassLibrary
 
         #region Variables
         MediaPlayerManager playerManager;
-        CommandWorker.CommandWorker commandWorker;
-        List<ManualResetEvent> resetEvents;
         #endregion
 
         #region Constructors
@@ -33,8 +31,6 @@ namespace TextToSpeechClassLibrary
 
         private TextToSpeech()
         {
-            commandWorker = new CommandWorker.CommandWorker(TEXT_TO_SPEECH_WORKER);
-            resetEvents = new List<ManualResetEvent>();
         }
 
         public static TextToSpeech Instance
@@ -64,6 +60,17 @@ namespace TextToSpeechClassLibrary
             OnPlayEvent(new MediaPlayerEventArgs(playerManager));
         }
 
+        public void ChangeText(String textToRead)
+        {
+            if (playerManager != null)
+            {
+                playerManager.Stop();
+                OnChangeTextEvent(new MediaPlayerEventArgs(playerManager));
+            }
+            
+            Play(textToRead);
+        }
+
         public void Pause()
         {
             playerManager.Pause();
@@ -86,16 +93,6 @@ namespace TextToSpeechClassLibrary
         {
             OnStopEvent(new MediaPlayerEventArgs(playerManager));
         }
-
-        public async void RunOnUI(Action action)
-        {
-            await CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(
-                    Windows.UI.Core.CoreDispatcherPriority.Normal,
-                    () =>
-                    {
-                        action();
-                    });
-        }
         #endregion
 
         #region Events
@@ -105,6 +102,18 @@ namespace TextToSpeechClassLibrary
         protected virtual void OnPlayEvent(MediaPlayerEventArgs e)
         {
             EventHandler handler = PlayEvent;
+            if (handler != null)
+            {
+                handler(this, e);
+            }
+        }
+
+
+        public event EventHandler ChangeTextEvent;
+
+        protected virtual void OnChangeTextEvent(EventArgs e)
+        {
+            EventHandler handler = ChangeTextEvent;
             if (handler != null)
             {
                 handler(this, e);

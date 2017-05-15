@@ -225,8 +225,8 @@ namespace SpeechToTextClassLibrary
             {
                 get
                 {
-                    String[] lines = speechResult.ToString().Split('\0');
-                    return lines.Last();
+                    String[] lines = speechResult.ToString().Split('\n');
+                    return lines[lines.Length - 2];
                 }
                 set
                 {
